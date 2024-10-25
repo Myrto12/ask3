@@ -12,7 +12,6 @@ while i<c:
     b =''.join(a[i*k:((i+1)*k)])
     L.insert(i,b)
     i=i+1
-print(L)
 L = map(int,L)
 print(sum(L))
 
